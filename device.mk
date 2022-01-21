@@ -161,6 +161,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+
 # Display
 # Display/Graphics
 PRODUCT_PACKAGES += \
