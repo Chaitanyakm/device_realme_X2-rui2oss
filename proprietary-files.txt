@@ -804,6 +804,12 @@ vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/libgnsspps.so
 
+# Health
+vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
+vendor/bin/hw/android.hardware.health@2.1-service
+vendor/etc/init/android.hardware.health@2.1-service.rc
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so
+
 # IPA Firmware
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
