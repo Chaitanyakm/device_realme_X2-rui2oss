@@ -121,3 +121,4 @@
     <hidden-api-whitelisted-app package="com.qti.service.colorservice" />
     <hidden-api-whitelisted-app package="org.device.RealmeParts" />
     <hidden-api-whitelisted-app package="co.hyper.proximityservice"/>
+</config>
