@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The AOSP Project
+# Copyright (C) 2020 Theyaa Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,4 +15,11 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/lineage_X2.mk
+   $(LOCAL_DIR)/yaap_X2.mk
+
+
+
+ COMMON_LUNCH_CHOICES := \
+   yaap_X2-eng \
+   yaap_X2-user \
+   yaap_X2-userdebug
